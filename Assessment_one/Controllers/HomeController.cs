@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Assessment_one.Models;
+using Data;
+using Data.Entities;
 
 namespace Assessment_one.Controllers
 {
@@ -13,18 +16,12 @@ namespace Assessment_one.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
+       
+        //public ActionResult Search()
+        //{
+        //    ViewBag.Message = "Your contact page.";
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+        //   return View();
+        //}
     }
 }

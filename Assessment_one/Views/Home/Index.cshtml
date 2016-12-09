@@ -2,25 +2,15 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="home-header-wrap">
-
-    <div class="header-content-wrap">
-        <div class="container">
-            <img src="/Content/Images/ats-adventureworks-header-02.png" style="vertical-align: middle; width: 59%; margin-left: 200px; margin-top: 20px;" />
-        </div>
-    </div><!-- .header-content-wrap --><div class="clear"></div>
-</div>
-
-
 <div class="row">
     <div class="col-md-3">
         <h2>Getting started</h2>
         <p>
-           View All Products
+            View All Products
         </p>
         <p>
             <ul class="btn">
-               @Html.ActionLink("View", "Index", null, new { @class = "btn-success" })
+                @Html.ActionLink("View", "Index", "Home", null, new { @class = "btn btn-success" })
             </ul>
         </p>
     </div>
@@ -31,7 +21,7 @@
         </p>
         <p>
             <ul>
-               @Html.ActionLink("Search", "Index", null, new { @class = "btn-success" })
+                @Html.ActionLink("Search", "Index", "Home", null, new { @class = "btn btn-success" })
             </ul>
         </p>
     </div>

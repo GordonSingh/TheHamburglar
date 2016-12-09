@@ -42,3 +42,5 @@
 \\mac\home\documents\visual studio 2015\Projects\Assessment_one\Assessment_one\bin\EntityFramework.SqlServer.dll
 \\mac\home\documents\visual studio 2015\Projects\Assessment_one\Assessment_one\bin\EntityFramework.xml
 \\mac\home\documents\visual studio 2015\Projects\Assessment_one\Assessment_one\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Assessment_one\bin\Data.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Assessment_one\bin\Data.pdb
