@@ -18,7 +18,6 @@ namespace Assessment_one.Controllers
             {
                 Products = e.Products
                .Where(p => p.StockNumber > p.SafetyStockNumb)
-               .Take(10)
                .Select(p => new ProductModel
                {
                    ProductId = p.ProductId,
