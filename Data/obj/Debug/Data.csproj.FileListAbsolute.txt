@@ -1,9 +1,0 @@
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\Data.dll.config
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\Data.dll
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\Data.pdb
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.dll
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.SqlServer.dll
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.xml
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.SqlServer.xml
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\obj\Debug\Data.dll
-\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\obj\Debug\Data.pdb
