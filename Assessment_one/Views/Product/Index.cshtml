@@ -7,7 +7,7 @@
 
 <h2>Products</h2>
 
-<table class="table">
+<table div="productsTable" class="table pagination">
     <thead>
         <tr>
             <th>Name</th>
@@ -39,4 +39,8 @@
     </tr>
 </tbody>
 </table>
-
+<script>
+    $(document).ready(function() {
+        $('#productTable').dataTable({ "iDisplayLength": 10 });
+    })
+</script>
