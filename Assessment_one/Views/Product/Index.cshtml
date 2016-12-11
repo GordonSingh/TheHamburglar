@@ -1,0 +1,42 @@
+﻿@model Assessment_one.Models.Production
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout.cshtml";
+}
+
+<h2>Products</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Product Number</th>
+            <th>Color</th>
+            <th>In Stock</th>
+            <th>Stock Available</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @*@foreach (var production in Model.Products)
+            {
+                <tr>
+                    <td>@production.Name</td>
+                    <td>@production.ProductNumber</td>
+                    <td>@production.Color</td>
+                    <td>@production.ReorderPoint</td>
+                </tr>
+            }*@
+        <tr>
+            <td>@Model.Name</td>
+            <td>@Model.ProductNumber</td>
+            <td>@Model.Color</td>
+            <td>@Model.ReorderPoint</td>
+            <td>@Model.StockNumber</td>
+        <td>@Model.StandardCost</td>
+    </tr>
+</tbody>
+</table>
+

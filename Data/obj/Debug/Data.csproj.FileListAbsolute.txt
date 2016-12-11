@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\Data.dll.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\Data.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\Data.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\obj\Debug\Data.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\Assessment_one\Data\obj\Debug\Data.pdb
+C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\Data.dll.config
+C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\Data.dll
+C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\Data.pdb
+C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\EntityFramework.xml
+C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.dll
+C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.pdb
