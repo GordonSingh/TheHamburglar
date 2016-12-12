@@ -13,22 +13,22 @@ namespace Assessment_one.Controllers
         // GET: Product
         public ActionResult Index()
         {
-            //AdventureContext e = new AdventureContext();
-            //var allProducts = new Production
-            //{
-            //    Products = e.Products
-            //   .Where(p => p.StockNumber > p.SafetyStockNumb)
-            //   .Select(p => new ProductModel
-            //   {
-            //       ProductId = p.ProductId,
-            //       Name = p.Name,
-            //       ProductNumber = p.ProductNumber,
-            //       Color = p.Color,
-            //       StandardCost = p.StandardCost,
-            //       ReorderPoint = p.ReorderPoint,
-            //       StockNumber = p.StockNumber
-            //   }).ToList()
-            //};
+            AdventureContext e = new AdventureContext();
+            var allProducts = new Production
+            {
+                Products = e.Products
+               .Where(p => p.StockNumber > p.SafetyStockNumb)
+               .Select(p => new ProductModel
+               {
+                   ProductId = p.ProductId,
+                   Name = p.Name,
+                   ProductNumber = p.ProductNumber,
+                   Color = p.Color,
+                   StandardCost = p.StandardCost,
+                   ReorderPoint = p.ReorderPoint,
+                   StockNumber = p.StockNumber
+               }).ToList()
+            };
 
             var product = new Production
             {
@@ -40,7 +40,7 @@ namespace Assessment_one.Controllers
               StandardCost = 12.40
             };
 
-            return View(product);
+            return View(allProducts);
         }
            
     }

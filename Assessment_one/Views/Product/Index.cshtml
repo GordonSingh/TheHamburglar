@@ -20,7 +20,7 @@
     </thead>
 
     <tbody>
-        @*@foreach (var production in Model.Products)
+        @foreach (var production in Model.Products)
             {
                 <tr>
                     <td>@production.Name</td>
@@ -28,15 +28,15 @@
                     <td>@production.Color</td>
                     <td>@production.ReorderPoint</td>
                 </tr>
-            }*@
-        <tr>
+            }
+        @*<tr>
             <td>@Model.Name</td>
             <td>@Model.ProductNumber</td>
             <td>@Model.Color</td>
             <td>@Model.ReorderPoint</td>
             <td>@Model.StockNumber</td>
         <td>@Model.StandardCost</td>
-    </tr>
+    </tr>*@
 </tbody>
 </table>
 <script>

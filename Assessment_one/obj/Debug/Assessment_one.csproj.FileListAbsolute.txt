@@ -208,3 +208,5 @@ C:\Users\arins\Desktop\TheHamburglar\Assessment_one\obj\Debug\Assessment_one.pdb
 \\Mac\Home\Desktop\Der!vco\TheHamburglar\Assessment_one\obj\Debug\Assessment_one.pdb
 \\Mac\Home\Desktop\Der!vco\TheHamburglar\Assessment_one\bin\EntityFramework.dll
 \\Mac\Home\Desktop\Der!vco\TheHamburglar\Assessment_one\bin\EntityFramework.SqlServer.dll
+C:\Users\arins\Desktop\TheHamburglar\Assessment_one\bin\EntityFramework.dll
+C:\Users\arins\Desktop\TheHamburglar\Assessment_one\bin\EntityFramework.SqlServer.dll

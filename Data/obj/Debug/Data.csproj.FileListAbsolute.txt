@@ -27,3 +27,8 @@ C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.pdb
 \\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.Migrations.initialData.resources
 \\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.csproj.GenerateResource.Cache
 \\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.Migrations.FK_SchemaChanged.resources
+C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\EntityFramework.dll
+C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.Migrations.initialData.resources
+C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.Migrations.FK_SchemaChanged.resources
+C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.csproj.GenerateResource.Cache
