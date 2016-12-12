@@ -128,6 +128,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NewProductController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Global.asax.cs">
@@ -190,6 +191,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\NewProduct\Create.cshtml" />
+    <Content Include="Views\NewProduct\Delete.cshtml" />
+    <Content Include="Views\NewProduct\Details.cshtml" />
+    <Content Include="Views\NewProduct\Edit.cshtml" />
+    <Content Include="Views\NewProduct\Index.cshtml" />
     <None Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Search\Index.cshtml" />
     <Content Include="Views\Product\_ViewStart.cshtml" />

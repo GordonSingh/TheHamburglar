@@ -15,3 +15,15 @@ C:\Users\arins\Desktop\TheHamburglar\Data\bin\Debug\EntityFramework.SqlServer.xm
 C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.dll
 C:\Users\arins\Desktop\TheHamburglar\Data\obj\Debug\Data.pdb
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\bin\Debug\Data.dll.config
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\bin\Debug\Data.dll
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\bin\Debug\Data.pdb
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\bin\Debug\EntityFramework.xml
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.dll
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.pdb
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\bin\Debug\EntityFramework.dll
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.Migrations.initialData.resources
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\Der!vco\TheHamburglar\Data\obj\Debug\Data.Migrations.FK_SchemaChanged.resources

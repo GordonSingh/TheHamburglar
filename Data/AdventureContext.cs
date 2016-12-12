@@ -15,7 +15,7 @@ namespace Data
                 
         }
 
-        public ICollection<Product> Products { get; set; }
-        public ICollection<ProductDescription> ProductDescriptions { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductDescription> ProductDescriptions { get; set; }
     }
 }
