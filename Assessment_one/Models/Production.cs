@@ -6,9 +6,9 @@ using Data.Entities;
 
 namespace Assessment_one.Models
 {
-    public class Production :ProductModel
+    public class Production 
     {
-        public List<ProductModel> Products { get; set; }
-        public List<ProductDescriptionModel> ProductDescriptions { get; set; }
+        public List<ProductModel> Products =new List<ProductModel>();
+        public List<ProductDescriptionModel> ProductDescriptions =new List<ProductDescriptionModel>();
     }
 }

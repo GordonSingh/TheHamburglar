@@ -7,13 +7,12 @@
 
 <h2>Products</h2>
 
-<table div="productsTable" class="table pagination">
+<table div="productsTable" @*class="table pagination"*@>
     <thead>
         <tr>
             <th>Name</th>
             <th>Product Number</th>
             <th>Color</th>
-            <th>In Stock</th>
             <th>Stock Available</th>
             <th>Cost</th>
         </tr>
@@ -26,7 +25,8 @@
                     <td>@production.Name</td>
                     <td>@production.ProductNumber</td>
                     <td>@production.Color</td>
-                    <td>@production.ReorderPoint</td>
+                    <td>@production.StockNumber</td>
+                    <td>@production.StandardCost</td>
                 </tr>
             }
         @*<tr>
@@ -39,8 +39,4 @@
     </tr>*@
 </tbody>
 </table>
-<script>
-    $(document).ready(function() {
-        $('#productTable').dataTable({ "iDisplayLength": 10 });
-    })
-</script>
+
