@@ -1,26 +1,45 @@
-﻿@model Assessment_one.Models.Production
+﻿@using Assessment_one.Models
+@model Assessment_one.Models.Production
 
 @{
     ViewBag.Title = "title";
     Layout = "_Layout.cshtml";
 }
 
+<script type="text/javascript" src="http://ccode.jquery.com/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+
 <h2>Products</h2>
 
-<table div="productsTable" @*class="table pagination"*@>
+<script>
+    $(document)
+        .ready(function () {
+            $('#prodTable')
+                .DataTable({
+                    "pagingType": "full_numbers"
+                });
+        });
+</script>
+
+<table div="productsTable" id="prodTable">
     <thead>
         <tr>
             <th>Name</th>
+            <th> </th>
             <th>Product Number</th>
+            <th> </th>
             <th>Color</th>
+            <th> </th>
             <th>Stock Available</th>
+            <th> </th>
             <th>Cost</th>
         </tr>
     </thead>
 
     <tbody>
-        @foreach (var production in Model.Products)
-            {
+        @*@foreach (var production in Model.Products)
+                {
                 <tr>
                     <td>@production.Name</td>
                     <td>@production.ProductNumber</td>
@@ -28,15 +47,33 @@
                     <td>@production.StockNumber</td>
                     <td>@production.StandardCost</td>
                 </tr>
-            }
+            }*@
+
         @*<tr>
             <td>@Model.Name</td>
+            <td></td>
             <td>@Model.ProductNumber</td>
+            <td></td>
             <td>@Model.Color</td>
+            <td></td>
             <td>@Model.ReorderPoint</td>
+            <td></td>
             <td>@Model.StockNumber</td>
-        <td>@Model.StandardCost</td>
-    </tr>*@
-</tbody>
+            <td></td>
+            <td>@Model.StandardCost</td>
+
+        </tr>*@
+
+        @foreach (var pr in Model.Products)
+            {
+            <tr>
+                <td>@pr.Name</td>
+                <td>@pr.ProductNumber</td>
+                <td>@pr.Color</td>
+                <td>@pr.StockNumber</td>
+                <td>@pr.StandardCost</td>
+            </tr>
+        }
+    </tbody>
 </table>
 

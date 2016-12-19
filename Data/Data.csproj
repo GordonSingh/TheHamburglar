@@ -60,6 +60,10 @@
     <Compile Include="Migrations\201612120649263_FK_SchemaChanged.Designer.cs">
       <DependentUpon>201612120649263_FK_SchemaChanged.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612190913176_new_DBConn.cs" />
+    <Compile Include="Migrations\201612190913176_new_DBConn.Designer.cs">
+      <DependentUpon>201612190913176_new_DBConn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612120649263_FK_SchemaChanged.resx">
       <DependentUpon>201612120649263_FK_SchemaChanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612190913176_new_DBConn.resx">
+      <DependentUpon>201612190913176_new_DBConn.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

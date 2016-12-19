@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Web;
 using System.Web.Mvc;
 using Assessment_one.Models;
@@ -32,19 +33,19 @@ namespace Assessment_one.Controllers
             };
 
 
-            
-            //var product = new Production
+
+            //var product = new ProductModel()
             //{
-            //  Name = "Lead Pipe",
-            //  Color = "Black",
-            //  ProductNumber = 12,
-            //  ReorderPoint = false,
-            //  StockNumber = 14,
-            //  StandardCost = 12.40
+            //    Name = "Lead Pipe",
+            //    Color = "Black",
+            //    ProductNumber = 12,
+            //    ReorderPoint = false,
+            //    StockNumber = 14,
+            //    StandardCost = 12.40
             //};
 
             return View(allProducts);
         }
-           
+
     }
 }
