@@ -1,5 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
 
 namespace Data.Entities
 {
@@ -28,5 +31,7 @@ namespace Data.Entities
 
         [Required]
         public double StandardCost { get; set; }
+
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

@@ -21,5 +21,7 @@ namespace Data.Entities
         public string Description { get; set; }
 
         public DateTime ModifiedDateTime { get; set; }
+
+        public virtual ICollection<ProductDescription> ProductDescriptions { get; set; }
     }
 }
