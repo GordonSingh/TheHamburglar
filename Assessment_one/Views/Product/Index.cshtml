@@ -3,77 +3,70 @@
 
 @{
     ViewBag.Title = "title";
-    Layout = "_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<script type="text/javascript" src="http://ccode.jquery.com/jquery-1.12.4.js"></script>
-<script type="text/javascript" src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-
 
 <h2>Products</h2>
 
-<script>
-    $(document)
-        .ready(function () {
-            $('#prodTable')
-                .DataTable({
-                    "pagingType": "full_numbers"
-                });
-        });
+<div id="Tbl">
+    <table id="tblProd">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th> </th>
+                <th>Product Number</th>
+                <th> </th>
+                <th>Color</th>
+                <th> </th>
+                <th>Stock Available</th>
+                <th> </th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+
+        <tbody id="body">
+
+
+            @foreach (var pr in Model.Products.Take(10).Skip(3))
+            {
+
+                <tr>
+                    <td>@pr.Name</td>
+                    <td> </td>
+                    <td>@pr.ProductNumber</td>
+                    <td> </td>
+                    <td>@pr.Color</td>
+                    <td> </td>
+                    <td>@pr.StockNumber</td>
+                    <td> </td>
+                    <td>@pr.StandardCost</td>
+                </tr>
+
+
+            }
+        </tbody>
+    </table>
+</div>
+
+<ul class="pagination">
+    <li><a onclick="previous()">Previous</a></li>
+    <li><a onclick="next()">Next</a></li>
+</ul>
+
+<script type="text/javascript">
+    var pro=@Model.Products;
+
+    $(document).ready = function (){
+
+    };
+
+    function next() {
+        return pro.Skip(10);
+    }
+
+    function previous() {
+        return pro.Skip(10);
+    }
 </script>
 
-<table div="productsTable" id="prodTable">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th> </th>
-            <th>Product Number</th>
-            <th> </th>
-            <th>Color</th>
-            <th> </th>
-            <th>Stock Available</th>
-            <th> </th>
-            <th>Cost</th>
-        </tr>
-    </thead>
-
-    <tbody>
-        @*@foreach (var production in Model.Products)
-                {
-                <tr>
-                    <td>@production.Name</td>
-                    <td>@production.ProductNumber</td>
-                    <td>@production.Color</td>
-                    <td>@production.StockNumber</td>
-                    <td>@production.StandardCost</td>
-                </tr>
-            }*@
-
-        @*<tr>
-            <td>@Model.Name</td>
-            <td></td>
-            <td>@Model.ProductNumber</td>
-            <td></td>
-            <td>@Model.Color</td>
-            <td></td>
-            <td>@Model.ReorderPoint</td>
-            <td></td>
-            <td>@Model.StockNumber</td>
-            <td></td>
-            <td>@Model.StandardCost</td>
-
-        </tr>*@
-
-        @foreach (var pr in Model.Products)
-            {
-            <tr>
-                <td>@pr.Name</td>
-                <td>@pr.ProductNumber</td>
-                <td>@pr.Color</td>
-                <td>@pr.StockNumber</td>
-                <td>@pr.StandardCost</td>
-            </tr>
-        }
-    </tbody>
-</table>
 
