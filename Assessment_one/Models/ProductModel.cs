@@ -8,18 +8,8 @@ using Data.Entities;
 
 namespace Assessment_one.Models
 {
-    public class ProductModel
+    public class ProductModel:Product
     {
-        public int ProductId { get; set; }
-        
-        public string Name { get; set; }
-        public int ProductNumber { get; set; }
-        public string Color { get; set; }
-        public int SafetyStockNumb { get; set; }
-        public int StockNumber { get; set; }
-        public bool ReorderPoint { get; set; }
-
-        [DataType(DataType.Currency)]
-        public double StandardCost { get; set; }
+        public List<Product> productsM = new List<Product>();    
     }
 }

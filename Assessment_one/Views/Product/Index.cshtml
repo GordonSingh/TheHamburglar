@@ -1,5 +1,6 @@
 ﻿@using Assessment_one.Models
-@model Assessment_one.Models.Production
+@using PagedList.Mvc
+@model PagedList.IPagedList<Data.Entities.Product>
 
 @{
     ViewBag.Title = "title";
@@ -27,19 +28,25 @@
         <tbody id="body">
 
 
-            @foreach (var pr in Model.Products.Take(10).Skip(3))
+            @foreach (var pr in Model)
             {
 
                 <tr>
-                    <td>@pr.Name</td>
-                    <td> </td>
-                    <td>@pr.ProductNumber</td>
-                    <td> </td>
-                    <td>@pr.Color</td>
-                    <td> </td>
-                    <td>@pr.StockNumber</td>
-                    <td> </td>
-                    <td>@pr.StandardCost</td>
+                    <td>@Html.DisplayFor(modelItem => pr.Name)</td>
+                    <td>
+                    <td>
+                    <td>@Html.DisplayFor(modelItem => pr.ProductNumber)</td>
+                    <td>
+                    <td>
+                    <td>@Html.DisplayFor(modelItem => pr.Color)</td>
+                    <td>
+                    <td>
+                    <td>@Html.DisplayFor(modelItem => pr.StockNumber)</td>
+                    <td>
+                    <td>
+                    <td>@Html.DisplayFor(modelItem => pr.StandardCost)</td>
+                    <td>
+                    <td>
                 </tr>
 
 
@@ -47,26 +54,14 @@
         </tbody>
     </table>
 </div>
+<div class="col-sm-10">
+    <div class="center" id="centerDisp">
+        @Html.PagedListPager(Model, page => Url.Action("Index",
+     new { page, pageSize = Model.PageSize }))
+        Showing @Model.FirstItemOnPage to @Model.LastItemOnPage
+        of @Model.TotalItemCount Products
+    </div>
+</div>
 
-<ul class="pagination">
-    <li><a onclick="previous()">Previous</a></li>
-    <li><a onclick="next()">Next</a></li>
-</ul>
-
-<script type="text/javascript">
-    var pro=@Model.Products;
-
-    $(document).ready = function (){
-
-    };
-
-    function next() {
-        return pro.Skip(10);
-    }
-
-    function previous() {
-        return pro.Skip(10);
-    }
-</script>
 
 
